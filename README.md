@@ -1,4 +1,4 @@
-# Machine_Vision
+# Machine-Vision
 Matlab (perhaps also other) codes for realization of assignments of course Machine Vision in KIT
 
 ## Assignment 1: Getting start with MATLAB
