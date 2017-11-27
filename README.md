@@ -8,6 +8,7 @@ Matlab (perhaps also other) codes for realization of assignments of course Machi
 4. Use RANSAC (random sample consesus) methode to re-estimate the line parameters (theta, c) and plot these lines.
 > **update 2017/11/27**  
 > The direction of line now can be correctly calculated. (Remove `if(...) c=-c`)
+> Upload template solution of it in directory `~/Assignment3/Loesung`.
 
 ## Assignment 2: Edge Detection and Hough Transformation
 1. Use Sobel Filter to calculate the grey value gradient of the image 'postit2g.png', display and compare the results;
