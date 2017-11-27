@@ -18,3 +18,5 @@ Matlab (perhaps also other) codes for realization of assignments of course Machi
 2. Determine start and end point for the line by projecting all the edge-pixel points on the line;
 3. Remove some distance-outmost points;
 4. Use RANSAC (random sample consesus) methode to re-estimate the line parameters (theta, c) and plot these lines.
+> update 2017/11/27  
+> The direction of line now can be correctly calculated. (Remove `if(...) c=-c`)
