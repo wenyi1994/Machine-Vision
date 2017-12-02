@@ -9,8 +9,10 @@ Matlab (perhaps also other) codes for realization of assignments of course Machi
 3. Use k-means clustering ([color_kmeans.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/color_kmeans.m)) for color segmentation. Vary color space by using RGB, L\*a\*b\* or its different channels.
 4. Apply morphological operations on image to fill the holes in the segments.  
 > [morphoim.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/morphoim.m)  
-> With this function MATLAB can execute continuously morphological operations on given image. The result and used binary matrix will be plotted. Following is an example of erasion, dilation, again erasion and dilation.
+> With this function MATLAB can execute continuously morphological operations on given image. The result and used binary matrix will be plotted. Following is an example of erasion, dilation, and again erasion and dilation.
 > ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/morpho_result.jpg)
+>   
+> Further description refers to [morphoim.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/morphoim.m) and [bimat2im](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/bimat2im.m)
 
 ## Assignment 3: Line Estimation
 1. Use total-least-square methode to estimate the line parameters (theta, c) from a list of pixel coordinates;
