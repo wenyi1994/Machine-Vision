@@ -11,7 +11,6 @@ Matlab (perhaps also other) codes for realization of assignments of course Machi
 > [morphoim.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/morphoim.m)  
 > With this function MATLAB can execute continuously morphological operations on given image. The result and used binary matrix will be plotted. Following is an example of erasion, dilation, and again erasion and dilation.
 > ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/morpho_result.jpg)
->   
 > Further description refers to [morphoim.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/morphoim.m) and [bimat2im](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/bimat2im.m)
 
 ## Assignment 3: Line Estimation
