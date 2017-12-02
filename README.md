@@ -2,7 +2,7 @@
 Matlab (perhaps also other) codes for realization of assignments of course Machine Vision in KIT
 
 ## Assignment 4: Color and Segmentation
-1. Load the image file `stack.png` and transform it into HSV and L*a*b* color space. Show 3 channels of HSV and only luminance channel of L*a*b*.
+1. Load the image file `stack.png` and transform it into HSV and L\*a\*b\* color space. Show 3 channels of HSV and only luminance channel of L\*a\*b\*.
 
 ## Assignment 3: Line Estimation
 1. Use total-least-square methode to estimate the line parameters (theta, c) from a list of pixel coordinates;
