@@ -1,7 +1,10 @@
-# Machine-Vision `2017/12/02`
+# Machine-Vision `2017/12/03`
 Matlab (perhaps also other) codes for realization of assignments of course Machine Vision in KIT
 
 ## Assignment 4: Color and Segmentation
+> **update 2017/12/03**
+> [`morphoim.m`](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/morphoim.m)  
+> If the type of `morphological operations` is not detected, title string can be correctly output now.
 1. Load the image file [`stack.png`](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/stack.png) and transform it into HSV and L\*a\*b\* color space. Show 3 channels of HSV and only luminance channel of L\*a\*b\*.
 2. Apply CCL (connected components labeling) algorithm to image [`stack.png`](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/stack.png). Vary the threshold to achieve different results.  
 > [`coloring.m`](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/coloring.m)  
@@ -15,13 +18,13 @@ Matlab (perhaps also other) codes for realization of assignments of course Machi
 *Further description refers to [`morphoim.m`](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/morphoim.m) and [`bimat2im`](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/bimat2im.m)*
 
 ## Assignment 3: Line Estimation
+> **update 2017/11/27**  
+> The direction of line now can be correctly calculated. (Remove `if(...) c=-c`)  
+> Upload template solution of it in directory `~/Assignment3/Loesung`.
 1. Use total-least-square methode to estimate the line parameters (theta, c) from a list of pixel coordinates;
 2. Determine start and end point for the line by projecting all the edge-pixel points on the line;
 3. Remove some distance-outmost points;
 4. Use RANSAC (random sample consesus) methode to re-estimate the line parameters (theta, c) and plot these lines.
-> **update 2017/11/27**  
-> The direction of line now can be correctly calculated. (Remove `if(...) c=-c`)  
-> Upload template solution of it in directory `~/Assignment3/Loesung`.
 
 ## Assignment 2: Edge Detection and Hough Transformation
 1. Use Sobel Filter to calculate the grey value gradient of the image 'postit2g.png', display and compare the results;
