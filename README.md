@@ -2,7 +2,7 @@
 Matlab (perhaps also other) codes for realization of assignments of course Machine Vision in KIT
 
 ## Assignment 4: Color and Segmentation
-> **update 2017/12/03**
+> **update 2017/12/03**  
 > [`morphoim.m`](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/morphoim.m)  
 > If the type of `morphological operations` is not detected, title string can be correctly output now.
 1. Load the image file [`stack.png`](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/stack.png) and transform it into HSV and L\*a\*b\* color space. Show 3 channels of HSV and only luminance channel of L\*a\*b\*.
@@ -20,7 +20,7 @@ Matlab (perhaps also other) codes for realization of assignments of course Machi
 ## Assignment 3: Line Estimation
 > **update 2017/11/27**  
 > The direction of line now can be correctly calculated. (Remove `if(...) c=-c`)  
-> Upload template solution of it in directory `~/Assignment3/Loesung`.
+> Upload template solution of it in directory [`~/Assignment3/Loesung`](https://github.com/wenyi1994/Machine-Vision/tree/master/Assignment3/Loesung).
 1. Use total-least-square methode to estimate the line parameters (theta, c) from a list of pixel coordinates;
 2. Determine start and end point for the line by projecting all the edge-pixel points on the line;
 3. Remove some distance-outmost points;
