@@ -1,7 +1,7 @@
 function MI = morphoim(I,varargin)
 %  morphoim.m
 %  morphological operations on image
-%  M = morphoim(I,'erasion',S1,3,'openning',S2,2)
+%  M = morphoim(I, type, S, times, ...)
 %  ----------------------------------------------------------------------
 %  input:
 %  I                    original image
@@ -54,6 +54,7 @@ for i = 1:3:(nargin-3)
         str=['Opening ',num2str(varargin{i+2}), ' times'];
     else
         warning(['unknown morphological operation', varargin{i}]);
+        str=['unknown morphological operation'];
     end
     subplot(sub1, sub2, count);
     imshow(I_temp);
