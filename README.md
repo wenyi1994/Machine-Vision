@@ -1,10 +1,11 @@
-# Machine-Vision `2017/12/03`
+# Machine-Vision `2017/12/04`
 Matlab (perhaps also other) codes for realization of assignments of course Machine Vision in KIT
 
 ## Assignment 4: Color and Segmentation
 > **update 2017/12/04**  
 > \>>[`GUI-Tool`](https://github.com/wenyi1994/Machine-Vision/tree/master/Assignment4/GUI)  
-> This is a GUI-Tool of image operations.
+> ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/GUI_ImageOpera.png)
+> This is a GUI-Tool of image operations. It can divide the image into several segments with CCL or K-means algorithm. Further more, it can execute some morphological operations on original/segmented image.
 
 > **update 2017/12/03**  
 > \>>[`morphoim.m`](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/morphoim.m)  
