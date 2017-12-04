@@ -2,6 +2,9 @@
 Matlab (perhaps also other) codes for realization of assignments of course Machine Vision in KIT
 
 ## Assignment 4: Color and Segmentation
+> **update 2017/12/04**  
+> Upload the [`GUI-Tool`](https://github.com/wenyi1994/Machine-Vision/tree/master/Assignment4/GUI) of image operations.
+
 > **update 2017/12/03**  
 > \>>[`morphoim.m`](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/morphoim.m)  
 > If the type of `morphological operations` is not detected, title string can be correctly output now.
