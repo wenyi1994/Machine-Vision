@@ -3,7 +3,8 @@ Matlab (perhaps also other) codes for realization of assignments of course Machi
 
 ## Assignment 4: Color and Segmentation
 > **update 2017/12/04**  
-> Upload the [`GUI-Tool`](https://github.com/wenyi1994/Machine-Vision/tree/master/Assignment4/GUI) of image operations.
+> \>>[`GUI-Tool`](https://github.com/wenyi1994/Machine-Vision/tree/master/Assignment4/GUI)  
+> This is a GUI-Tool of image operations.
 
 > **update 2017/12/03**  
 > \>>[`morphoim.m`](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/morphoim.m)  
