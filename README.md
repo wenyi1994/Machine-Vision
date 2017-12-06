@@ -3,7 +3,7 @@ Matlab (perhaps also other) codes for realization of assignments of course Machi
 
 ## Assignment 4: Color and Segmentation
 > **update 2017/12/06**  
-> Add [README.md](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/README.md) to [GUI](https://github.com/wenyi1994/Machine-Vision/tree/master/Assignment4/GUI) directory.
+> Add [README.md](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/README.md) to [GUI](https://github.com/wenyi1994/Machine-Vision/tree/master/Assignment4/GUI) directory. This is an introduction to GUI-tool.
 
 > **update 2017/12/04**  
 > \>>[`GUI-Tool`](https://github.com/wenyi1994/Machine-Vision/tree/master/Assignment4/GUI)  
