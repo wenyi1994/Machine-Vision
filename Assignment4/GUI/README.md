@@ -19,4 +19,11 @@ In this window some parameters of CCL operation can be set.
 2. Click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/KM_button.png) to open K-means operation window.  
 ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/KM_window.png)  
 Also the number of `k` can be set and varied.
-3. Click 'OK' button to apply it on image.
+3. Click `OK` button to apply it on image.
+
+### Execute morphological operations on image
+1. Click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/open_button.png) on toolbar and select an image file.
+2. Click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/Mo_button.png) to open morphological operation window.  
+![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/MO_window.png)  
+The mask that used to execute operations can be chosen or just customized by clicking `Customize` radio button. Input an regular binary matrix (like `[1,0,1; 0,1,0; 1,0,1]`) and the result of mask will be shown.
+3. Click `Erosion`, `Dilation`, `Closing` or `Opening` button to apply operations on image.
