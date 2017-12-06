@@ -27,3 +27,7 @@ Also the number of `k` can be set and varied.
 ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/MO_window.png)  
 The mask that used to execute operations can be chosen or just customized by clicking `Customize` radio button. Input an regular binary matrix (like `[1,0,1; 0,1,0; 1,0,1]`) and the result of mask will be shown.
 3. Click `Erosion`, `Dilation`, `Closing` or `Opening` button to apply operations on image.
+
+### Save & Recover the image
+* If you are satisfied with the result, click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/save_button.png) to save it.
+* If you want to revocer the image, click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/refresh_button.png) to get original picture.
