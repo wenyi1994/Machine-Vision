@@ -33,8 +33,8 @@ The mask that used to execute operations can be chosen or just customized by cli
 * If you want to revocer the image, click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/refresh_button.png) on toolbar to get original picture.
 
 ### About
-\>> Version: 0.9  
-\>> Latest change: 2017/12/06  
-\>> Contact me: yi.wen@student.kit.edu  
+\>> **Version** 0.9  
+\>> **Latest change** 2017/12/06  
+\>> **Contact me** yi.wen@student.kit.edu  
 Click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/about_button.png) to get some information!
 > ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/About_window.png)
