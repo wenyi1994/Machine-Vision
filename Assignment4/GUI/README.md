@@ -29,5 +29,9 @@ The mask that used to execute operations can be chosen or just customized by cli
 3. Click `Erosion`, `Dilation`, `Closing` or `Opening` button to apply operations on image.
 
 ### Save & Recover the image
-* If you are satisfied with the result, click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/save_button.png) to save it.
-* If you want to revocer the image, click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/refresh_button.png) to get original picture.
+* If you are satisfied with the result, click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/save_button.png) on toolbar to save it.
+* If you want to revocer the image, click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/refresh_button.png) on toolbar to get original picture.
+
+### About
+Click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/about_button.png) to get some information!
+![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/About_window.png)
