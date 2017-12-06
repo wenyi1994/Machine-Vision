@@ -5,7 +5,7 @@ This is a GUI-Tool of image operations. It can divide the image into several seg
 1. Download all the files in directory [GUI](https://github.com/wenyi1994/Machine-Vision/tree/master/Assignment4/GUI) and put them in Workpath of MATLAB.
 2. Run MATLAB and open script [ImageOpera.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/ImageOpera.m).
 3. Click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/MATLAB_RUN.png) to start this GUI programm.
-![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/GUI_Start.png)
+> The main interface is like this ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/GUI_Start.png)
 
 ### Apply CCL (connected components labeling) algorithm on image
 1. Click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/open_button.png) on toolbar and select an image file.
