@@ -9,4 +9,7 @@ This is a GUI-Tool of image operations. It can divide the image into several seg
 
 ### Apply CCL (connected components labeling) algorithm on image
 1. Click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/open_button.png) on toolbar and select an image file.
-2. Click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/CCL_button.png) to open CCL operation window. ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/CCL_window.png)
+2. Click ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/CCL_button.png) to open CCL operation window.  
+![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/pics/CCL_window.png)  
+In this window some parameters of CCL operation can be set.
+3. Click `OK` button to apply it on image.
