@@ -6,7 +6,7 @@ clc;
 %  Practical Exercises: Color and Segmentation
 %  Wen Yi, Karlsruhe Institut of Technology
 %  yi.wen@student.kit.edu
-%  2017/12/01
+%  2017/12/11
 
 %% 0. Read picture
 % I_0 = imread('flower.png');
@@ -34,6 +34,7 @@ Irgb_1 = im2double(I_1);
 Ihsv_1 = rgb2hsv(Irgb_1);
 Ilab_1 = rgb2lab(Irgb_1);
 
+% coloring with default colormap
 figure('name','1. stack.png','numbertitle','off');
 set(gcf,'position',[100,100,1000,700]);
 
@@ -53,9 +54,33 @@ subplot('position',[0.53,0.03,0.45,0.45]);
 imshow(Ilab_1(:,:,1),[]);
 title('in L* space');
 
+% coloring with HSV colormap
+figure('name','1. stack.png - hsv colormap','numbertitle','off');
+set(gcf,'position',[150,100,1000,700]);
+
+subplot('position',[0.03,0.53,0.45,0.45]);
+imshow(Ihsv_1);
+colormap(hsv);
+title('HSV - colormap: HSV');
+
+subplot('position',[0.53,0.53,0.45,0.45]);
+imshow(Ihsv_1(:,:,1));
+colormap(hsv);
+title('Hue - colormap: HSV');
+
+subplot('position',[0.03,0.03,0.45,0.45]);
+imshow(Ihsv_1(:,:,2));
+colormap(hsv);
+title('Saturation - colormap: HSV');
+
+subplot('position',[0.53,0.03,0.45,0.45]);
+imshow(Ihsv_1(:,:,3));
+colormap(hsv);
+title('Value - colormap: HSV');
+
 %% 2. using ccl.m to stack.png
 theta_rgb = 11/255;
-theta_lab = 11/255 * 100;
+theta_lab = 8/255 * 100;
 theta_lab_l = 7/255 * 100;
 theta_lab_ab = 7/255 * 100;
 minpixel_rgb = 200;
