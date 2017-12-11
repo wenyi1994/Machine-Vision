@@ -2,9 +2,9 @@
 Matlab (perhaps also other) codes for realization of assignments of course Machine Vision in KIT
 
 ## Assignment 4: Color and Segmentation
-> **update 2017/12/11**
+> **update 2017/12/11**  
 > [Assign4.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/Assign4.m)  
-> Add a figure that describe the original image in HSV color space with colormap HSV.
+> Add a figure that describes the original image in HSV color space with colormap HSV.
 
 > **update 2017/12/06**  
 > Add [README.md](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/GUI/README.md) to [GUI](https://github.com/wenyi1994/Machine-Vision/tree/master/Assignment4/GUI) directory. This is an introduction to GUI-tool.
