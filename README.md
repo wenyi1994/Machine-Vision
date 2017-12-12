@@ -1,7 +1,10 @@
-# Machine-Vision `2017/12/11`
+# Machine-Vision `2017/12/12`
 Matlab (perhaps also other) codes for realization of assignments of course Machine Vision in KIT
 
 ## Assignment 4: Color and Segmentation
+> **update 2017/12/12**
+> Upload template [solution.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/solution.m).
+
 > **update 2017/12/11**  
 > [Assign4.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/Assign4.m)  
 > Add a figure that describes the original image in HSV color space with colormap HSV.
