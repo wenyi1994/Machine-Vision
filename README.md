@@ -2,7 +2,7 @@
 Matlab (perhaps also other) codes for realization of assignments of course Machine Vision in KIT
 
 ## Assignment 4: Color and Segmentation
-> **update 2017/12/12**
+> **update 2017/12/12**  
 > Upload template [solution.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/solution.m).
 
 > **update 2017/12/11**  
