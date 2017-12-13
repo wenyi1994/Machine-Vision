@@ -2,7 +2,10 @@
 Matlab (perhaps also other) codes for realization of assignments of course Machine Vision in KIT
 
 ## Assignment 5: Calibration and Perspective Projection
-Using Tsai's algorithm for camera calibration.
+Use Tsai's algorithm for camera calibration.
+1. Determine the image position of markers manually and combine them with world position, so that Tsai's algorithm can be applied.
+2. Apply mapping matrix on world position and calculate the reprojection error.
+3. Determine height of the table.
 
 ## Assignment 4: Color and Segmentation
 > **update 2017/12/12**  
@@ -23,6 +26,7 @@ Using Tsai's algorithm for camera calibration.
 > **update 2017/12/03**  
 > \>>[`morphoim.m`](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/morphoim.m)  
 > If the type of `morphological operations` is not detected, title string can be correctly output now.
+
 1. Load the image file [`stack.png`](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/stack.png) and transform it into HSV and L\*a\*b\* color space. Show 3 channels of HSV and only luminance channel of L\*a\*b\*.
 2. Apply CCL (connected components labeling) algorithm to image [`stack.png`](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/stack.png). Vary the threshold to achieve different results.  
 > \>>[`coloring.m`](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment4/coloring.m)  
