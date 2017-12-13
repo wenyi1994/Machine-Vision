@@ -2,7 +2,7 @@
 Matlab (perhaps also other) codes for realization of assignments of course Machine Vision in KIT
 
 ## Assignment 5: Calibration and Perspective Projection
-Use Tsai's algorithm for camera calibration.
+![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment5/output.png)
 1. Determine the image position of markers manually and combine them with world position, so that Tsai's algorithm can be applied.
 2. Apply mapping matrix on world position and calculate the reprojection error.
 3. Determine height of the table.
