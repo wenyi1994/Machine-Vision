@@ -1,5 +1,8 @@
-# Machine-Vision `2017/12/12`
+# Machine-Vision `2017/12/13`
 Matlab (perhaps also other) codes for realization of assignments of course Machine Vision in KIT
+
+## Assignment 5: Calibration and Perspective Projection
+Using Tsai's algorithm for camera calibration.
 
 ## Assignment 4: Color and Segmentation
 > **update 2017/12/12**  
