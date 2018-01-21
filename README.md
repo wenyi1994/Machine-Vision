@@ -14,7 +14,7 @@ To find optimal parameters of a SVM, a set of parameters can be tried with this 
 5. [change_size.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment6/change_size.m)  
 Change the searching size of image (instead of full image), sometimes it can promote the accuracy of SVM.
 6. [HOG_features.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment6/HOG_features.m)  
-Using HOG (Histogram of Oriented Gradients) features for SVM.
+Calculate HOG (Histogram of Oriented Gradients) features for SVM.
 
 Moreover, some transformation of the image can be combined so that a better result with less error can be got.
 
