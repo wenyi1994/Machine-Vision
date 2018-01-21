@@ -1,6 +1,23 @@
 # Machine-Vision `2017/12/13`
 Matlab (perhaps also other) codes for realization of assignments of course Machine Vision in KIT
 
+## Assignment 6: Support-Vector-Machines
+Classification with support vector machines (SVM) and validation with k-fold cross-validation.
+1. [smileys_train.mat](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment6/smileys_train.mat)  
+This is s set of training images which consists of 2 categories: happy smileys and sad smileys. Using `load('smileys_train.mat')` to load data.
+2. [plot_smiley.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment6/plot_smiley.m)  
+With this function one image of the set can be shown.
+3. [test_svm.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment6/test_svm.m)  
+This function can give back error and confusion matrix of a SVM.
+4. [train_svm_cv.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment6/train_svm_cv.m)  
+To find optimal parameters of a SVM, a set of parameters can be tried with this function.
+5. [change_size.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment6/change_size.m)  
+Change the searching size of image (instead of full image), sometimes it can promote the accuracy of SVM.
+6. [HOG_features.m](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment6/HOG_features.m)  
+Using HOG (Histogram of Oriented Gradients) features for SVM.
+
+Moreover, some transformation of the image can be combined so that a better result with less error can be got.
+
 ## Assignment 5: Calibration and Perspective Projection
 ![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment5/output.png)
 1. Determine the image position of markers manually and combine them with world position, so that Tsai's algorithm can be applied.
