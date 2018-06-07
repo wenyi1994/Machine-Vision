@@ -1,6 +1,12 @@
 # Machine-Vision `2017/12/13`
 Matlab (perhaps also other) codes for realization of assignments of course Machine Vision in KIT
 
+## Assignment 7: Deep Learning
+Load a pretrained AlexNet and use it to classify images.  
+[Assignment 7](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment7/Assign7.m)  
+This Script use the camera of laptop and try to recognize the captured object. An example is given as below:  
+![image](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment7/Recognize.png)  
+
 ## Assignment 6: Support-Vector-Machines
 Classification with support vector machines (SVM) and validation with k-fold cross-validation.
 1. [smileys_train.mat](https://github.com/wenyi1994/Machine-Vision/blob/master/Assignment6/smileys_train.mat)  
